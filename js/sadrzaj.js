@@ -240,7 +240,7 @@ function resetujUsluge() {
 }
 
 function stranica() {
-    if (/index/.test(window.location.href) || window.location.pathname ==='/kriskom-web/') {
+    if (/index/.test(window.location.href) || window.location.pathname ==='/web-programiranje2/') {
         generisiParagraf();
         generisiSlider();
     } else if (/usluge/.test(window.location.href)) {
@@ -287,13 +287,7 @@ $.ajax({
     }
 });
 
-$.ajax({
-    url: 'footer.json',
-    success: function (json) {
-        var footer = '<span>' + json.text + '<a href="' + json.link + '" target="_blank"> ' + json.ime + '</a></span><a href="' + json.url + '"> ' + json.imeLinka + '</a>'
-        document.getElementById("footer").innerHTML += footer;
-    }
-});
+
 
 $.ajax({
     url: 'desktopMenu.json',
