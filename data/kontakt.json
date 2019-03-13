@@ -1,0 +1,20 @@
+ [
+    {
+        "img": "img/adresa.png",
+        "naslov": "Adresa",
+        "tekst": "Banovacka 46, Nova Pazova",
+        "alt": "Piktogram adrese"
+    },
+    {
+        "img": "img/telefon.png",
+        "naslov": "Telefon",
+        "tekst": "+381 64/313 78 39",
+        "alt": "Piktogram telefona"
+    },
+    {
+        "img": "img/email.png",
+        "naslov": "Email",
+        "tekst": "kriskom@gmail.com",
+        "alt": "Piktogram email"
+    }
+]

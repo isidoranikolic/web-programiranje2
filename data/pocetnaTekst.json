@@ -1,0 +1,14 @@
+ [
+    {
+       "class": "col-md-5 col-md-offset-1 col-sm-12",
+        "id": "levop",
+        "naslov": "ISTORIJAT",
+        "tekst": "Firma Kris-kom nastala je 1993. godine u Novoj Pazovi kao mala strugarska radionica. Vremenom je radionica evoluirala u alatnicu i proizvodni pogon koji sarađuje sa firmama širom sveta. Kao porodična firma Kris-kom nastoji da napreduje ali i održava porodične vrednosti koje su ključni deo naše filozofije od samog nastanka."
+    },
+    {
+        "class": "col-md-5 col-sm-12",
+        "id": "desnop",
+        "naslov": "O NAMA",
+        "tekst": "Kris-kom je porodična firma iz Nove Pazove. Firma se bavi proizvodnjom i trgovinom proizvoda od polimera kao i uslugama mašinske obrade. Ponosni smo na višedecenijsko iskustvo u izradi alata za sve vrste obrade plastike, gume i metala. Uz mašinsku obradu takođe nudimo i usluge injekcionog presovanja."
+    }
+]

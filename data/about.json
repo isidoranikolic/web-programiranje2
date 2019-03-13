@@ -1,0 +1,9 @@
+ {
+    "slika":
+        {
+            "src": "img/isidora.jpg",
+            "klasa": "about__image",
+            "alt": "isidora"
+        },
+    "tekst": "Moje ime je Isidora Nikolić, živim u Novoj Pazovi. Pohađam Visoku ICT školu, smer internet tehnologije."
+}
