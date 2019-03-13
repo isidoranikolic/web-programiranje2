@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Kris kom - Usluge</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+    <meta name="description"
+        content="Kris kom je firma iz Nove Pazove koja se bavi obradom svih vrsta plastike, gume i metala">
+    <meta name="keywords"
+        content="kris, kom, kriskom, nova, pazova, metal, plastika, obrada, rezanje, glodanje, brušenje, bušenje, erodiranje, injekciono, presovanje" />
+</head>
+
+<body background="img/usluge.jpg" class="wow fadeIn">
+    <div class="logo">
+        <a href="index.html"><img src="img/logob.png" alt="Logo" /></a>
+    </div>
+    <div class="navigation">
+        <ul id="menu" class="lista1">
+        </ul>
+    </div>
+    <span id="hamb" onclick="openNav()"><img src="img/list.svg" alt="hamburger meni" /></span>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="menu-mobile">
+        </div>
+    </div>
+    <div id="lanac">
+        <img src="img/lanac.png" alt="lanac" />
+    </div>
+    <div class="container">
+        <div id="dugme">
+            <button type="button" id="sort" onClick="SortirajNaKlik()">SORT</button>
+            <input type="text" id="tbFilter" onChange="resetujUsluge()" placeholder="Filtriraj usluge" />
+            <button type="button" id="btnFilter" onClick="filterOnClick()">FILTER</button>
+        </div>
+
+        <div id="usluge"></div>
+    </div>
+    <footer class="footer" id="footer">
+    </footer>
+</body>
+
+<script src='js/jquery-3.3.1.min.js'></script>
+<script src="js/wow_init.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/skript.min.js"></script>
+<script src="js/slider.min.js"></script>
+<script src="js/sadrzaj.js"></script>
+
+</html>

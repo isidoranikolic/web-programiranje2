@@ -1,0 +1,22 @@
+[
+    {
+        "link": "index.html",
+        "text": "POČETNA"
+    },
+    {
+        "link": "usluge.html",
+        "text": "USLUGE"
+    },
+    {
+        "link": "kontakt.html",
+        "text": "KONTAKT"
+    },
+    {
+        "link": "gallery.html",
+        "text": "GALERIJA"
+    },
+    {
+        "link": "autor.html",
+        "text": "O AUTORU"
+    }
+]

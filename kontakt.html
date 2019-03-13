@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/notify.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Kris kom - Kontakt</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+    <meta name="description" content="Kris kom je firma iz Nove Pazove koja se bavi obradom svih vrsta plastike, gume i metala">
+    <meta name="keywords" content="kris, kom, kriskom, nova, pazova, firma, kontakt, telefon, email" />
+</head>
+
+<body background="img/kontakt.jpg" class="wow fadeIn">
+
+    <div class="logo">
+        <a href="index.html"><img src="img/logob.png" alt="Logo" /></a>
+    </div>
+    <div class="navigation">
+        <ul id="menu" class="lista1">
+        </ul>
+    </div>
+    <span id="hamb" onclick="openNav()"><img src="img/list.svg" alt="hamburger meni"/></span>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="menu-mobile">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <form action="kontakt.php" name="forma" method="post" class="wow fadeInLeft">
+                    <table>
+                        <tr>
+                            <td><input type="text" name="name" id="tbime" placeholder="Vaše ime i prezime" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="email" id="tbemail" placeholder="Vaš email" /></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="message" id="tbpitanje" placeholder="Vaše pitanje"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="btnposalji" id="btnposalji" value="POŠALJI" onclick="return  val_sr();" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="kontakt" class="col-md-4 col-md-offset-1 desno wow fadeInRight">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="naslov2"  class="wow fadeInUp">
+                    <h2>Pronađite nas</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mapa" class="wow fadeInUp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.461647036979!2d20.21860966634273!3d44.954610973884456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a5ecd6a526b3b%3A0x705cc14f7eed902!2z0J_QvtGZ0YHQutC4INC_0YPRgiwg0J3QvtCy0LAg0J_QsNC30L7QstCwIDIyMzMw!5e0!3m2!1ssr!2srs!4v1480606802771" width="1100" height="450" frameborder="0" style="border:8px solid #231f20; border-radius:8px" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+    </footer>
+</body>
+<script src='js/jquery-3.3.1.min.js'></script>
+<script  src="js/wow_init.js"></script>
+<script  src="js/wow.min.js"></script>
+<script  src="js/notify.js"></script>
+<script  src="js/validation.js"></script>
+<script  src="js/skript.min.js" charset="utf-8"></script>
+<script  src="js/sadrzaj.js"></script>
+
+</html>
+
+                  
+                   
